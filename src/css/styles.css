@@ -101,10 +101,6 @@ body {
   padding-right: 15px;
 }
 
-.tabs-info .info .description span {
-  color: #02d08f;
-}
-
 .social-media {
   display: flex;
   flex-direction: column;
