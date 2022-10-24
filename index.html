@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--DEV-->
+        <!-- ME -->
+        <!-- TORNAR -->
+        <!-- QUERO -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./src/css/reset.css" />
+        <link rel="stylesheet" href="./src/css/styles.css" />
+
+        <title>Portifolio</title>
+    </head>
+    <body>
+        <main class="card">
+            <div class="my-info">
+                <img
+                    src="./src/imagens/foto-perfil.jpg"
+                    alt="profile image"
+                    class="profile-img"
+                />
+                <h1 class="name">Felipe Carvalho</h1>
+                <h2 class="office">Desenvolvedor Frontend Júnior</h2>
+            </div>
+            <div class="content">
+                <ul class="tabs">
+                    <li class="tab selected" id="about-me">
+                        <img
+                            src="./src/imagens/sobre.gif"
+                            alt="about me icon"
+                        />
+                    </li>
+                    <li class="tab" id="social-media">
+                        <img
+                            src="./src/imagens/coracao.gif"
+                            alt="social media icon"
+                        />
+                    </li>
+                </ul>
+
+                <div class="tabs-info">
+                    <div id="info-about-me" class="info selected">
+                        <h3 class="sub-title">Sobre</h3>
+                        <div class="description">
+                            <p>
+                                Oi! Meu nome é Felipe Carvalho, seja bem
+                                vindo(a)!
+                            </p>
+
+                            <p>
+                                Desde que terminei o ensino médio a área de programação sempre me chamou atenção. 
+                                Ingressei em uma faculdade para cursar ciências da computação, e no começo de 2022 
+                                vi que o caminho que eu queria seguir era o de desenvolvedor web. Por isso, hoje foco 
+                                todas as minhas energias em estudar e criar projetos front-end e futuramente, 
+                                quando ganhar mais experiência, pretendo me especializar para me tornar Full-Stack.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="info" id="info-social-media">
+                        <h3 class="sub-title">Minhas redes</h3>
+
+                        <ul class="social-media">
+                            <li class="link-container">
+                                <a 
+                                    href="https://docs.google.com/document/d/1DrdTwXkDxqT6UZ5PurlpbUz3AI3t84G_7VZr-nwnun8/edit?usp=sharing"
+                                    target="_blank" 
+                                    class="curriculo"
+                                >Currículo</a>
+                            </li>
+                            <li class="link-container">
+                                <a
+                                    href="https://www.linkedin.com/in/felipe-carvalho-b55197197/"
+                                    target="_blank"
+                                    class="linkedin"
+                                >LinkedIn</a>
+                            </li>
+                            <li class="link-container">
+                                <a
+                                    href="https://github.com/FelipePinha"
+                                    target="_blank"
+                                    class="github"
+                                    >GitHub</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="./src/js/index.js"></script>
+    </body>
+</html>

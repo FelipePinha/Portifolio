@@ -1,0 +1,139 @@
+body {
+  background-image: url(../imagens/fundo-site.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  font-family: "VT323", monospace;
+  color: #f3f3f3;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.card {
+  background-color: #070d12;
+  width: 23.12rem;
+  border: 2px solid #e126d9;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tabs img {
+  width: 30px;
+}
+
+.card .my-info {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card .my-info img {
+  border-radius: 50px;
+  border: 4px solid #02d08f;
+  width: 96px;
+  height: 96px;
+}
+
+.card .my-info .name {
+  font-size: 26px;
+}
+
+.card .my-info .office {
+  font-size: 20px;
+  color: #b8bbc5;
+}
+
+.card .content {
+  margin-top: 15px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.tabs .tab {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.card .tabs-info .info.selected,
+.tabs .tab.selected {
+  background-color: #262626;
+}
+
+.tabs .tab:hover {
+  background-color: #414141;
+}
+
+.tabs-info .info {
+  min-height: 260px;
+  padding: 15px;
+  display: none;
+}
+
+.tabs-info .info.selected {
+  display: block;
+}
+
+.tabs-info .info .sub-title {
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.tabs-info .info .description {
+  font-size: 20px;
+  max-height: 180px;
+  overflow-y: auto;
+  padding-right: 15px;
+}
+
+.tabs-info .info .description span {
+  color: #02d08f;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+.social-media li a {
+  display: block;
+  width: 250px;
+  color: #f3f3f3;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.social-media li a:hover {
+  opacity: 0.8;
+}
+
+.social-media li .curriculo {
+  background-color: #06c185;
+}
+.social-media li .linkedin {
+  background-color: #1d87ed;
+}
+.social-media li .github {
+  background-color: #545454;
+}
